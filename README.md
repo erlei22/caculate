@@ -1,21 +1,19 @@
-# caculate
+# javascript caculate
 
-## Project setup
-```
-npm install
-```
+> 用js写个计算器把，就按照w10上面的计算器写，当然是标准版本的。~
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+- [javascript caculate](#javascript-caculate)
+  - [按键功能](#%E6%8C%89%E9%94%AE%E5%8A%9F%E8%83%BD)
+  - [开始](#%E5%BC%80%E5%A7%8B)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## 按键功能
 
-### Lints and fixes files
-```
-npm run lint
-```
+  1. MS：存当前显示的数值
+  2. MR：读取存储器中的数值，并显示出来
+  3. MC：清除已存的数据
+  4. M-：用已存的数值减去当前显示的数值后，再将结果保存  
+  5. M+：用已存的数值加上当前显示的数值后，再将结果保存
+  6. 清除键(C):在计算中（输入数字或计算符号——+-*/后）按下此键将清除除存储器内容外的所有数值和计算符号，即可以重新开始输入计算。
+  7. 清除键(CE):在计算中（输入数字或计算符号——+-*/后）按下此键将清除除存储器内容外的上一步内容，即可以重新输入按CE前输入的数字（含多位数）或计算符号。
+
+## 开始
